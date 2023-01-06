@@ -11,6 +11,7 @@ public class MyDispatcher extends HttpServlet{
 
 	@Override
 	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
+		System.out.println("colll2");
 		System.out.println("do 신호");
 		System.out.println("collll");
 	}
